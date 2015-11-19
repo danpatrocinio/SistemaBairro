@@ -1,0 +1,29 @@
+( x ) Validação dos cadastros
+( x ) Mensagens para erros, warning e sucesso
+( x ) Botão para cancelar Edição
+( x ) Máscara campos data
+( x ) Calendário no campos data
+( x ) Implementar de busca nas telas que se faz necessário
+( x ) Paginação nas listas de cadastros que se faz necessário
+
+( x ) Cadastro de usuários com níveis de acesso. Professor, Supervisor e Administrador
+      - Professor: Faz chamadas e emite extratos
+      - Supervisor: Acessa todo o site, com exceção da página Usuários
+      - Administrador: Tem acesso a todo o site
+( x ) Página para que o usuário possa editar suas próprias informações de acesso
+
+( x ) Cadastro de Disciplinas
+( x ) As Disciplinas são ligadas a Turmas
+( x ) Chamada passa a ser feita selecionando Turma e Disciplina
+( x ) Na tela de chamada, criado checkbox para Falta Justificada e campo para Observações
+( x ) Criado campo para ligar a chamada a um Usuário
+( x ) A edição das chamadas seguem as seguintes regras conforme tipo de usuário:
+      - Professor: Pode editar as presenças desde que seja no mesmo dia em que a chamada foi feita. 
+        Faltas justificadas e observações podem ser editadas a qualquer momento.
+      - Supervisor e Administrador: Podem editar as presenças, faltas justificadas e observações a qualquer momento.
+( x ) Extrato de frequências por Turma, Disciplina e Aluno
+
+//Implementações Pendentes
+(   ) Gerar relatório de frequência
+(   ) Controlar conexão para garantir que a chamada e os alunos sejam gravadas corretamente. Assim se garante que um erro no momento de gravar
+os filhos (Presenças) não irá invializar o cadastro do pai (Frequência) 
